@@ -18,29 +18,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   </head>
   <body unresolved>
 
-    <p>An example of <code>&lt;polymer-fontawesome&gt;</code>:</p>
-
-    <p>Make words! <button id="saybtn">Say Something</button></p>
-    <p>Make lasers! <button id="laserbtn">Fire lasers</button></p>
-
-    <polymer-fontawesome author='{"name": "Lord Meowser", "image": "http://lorempixel.com/g/300/200/cats/"}' fancy>
-      <h2>Hello polymer-fontawesome</h2>
-    </polymer-fontawesome>
+    <div class="vertical-section vertical-section-container centered">
+      <iron-icon icon="polymer-fontawesome:fa-pencil"></iron-icon>
+      <iron-icon icon="polymer-fontawesome:fa-warning"></iron-icon>
+    </div>
 
     <script>
-      var seedElement = document.querySelector('polymer-fontawesome');
 
-      document.querySelector('#saybtn').addEventListener('click', function() {
-        alert(seedElement.sayHello('Hallo!'));
-      });
-
-      document.querySelector('#laserbtn').addEventListener('click', function() {
-        seedElement.fireLasers();
-      });
-
-      document.addEventListener("polymer-fontawesome-lasers", function(e) {
-        console.log(e.detail.sound);
-      });
 
     </script>
 
