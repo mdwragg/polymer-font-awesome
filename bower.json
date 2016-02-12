@@ -1,5 +1,5 @@
 {
-  "name": "polymer-fontawesome",
+  "name": "polymer-font-awesome",
   "version": "0.0.2",
   "authors": [
     "Martin Wragg mdwragg@gmail.com"
@@ -10,9 +10,9 @@
     "polymer",
     "seed"
   ],
-  "main": "polymer-fontawesome.html",
-  "license": "https://github.com/mdwragg/polymer-fontawesome/LICENSE.md",
-  "homepage": "https://github.com/mdwragg/polymer-fontawesome",
+  "main": "polymer-font-awesome.html",
+  "license": "https://github.com/mdwragg/polymer-font-awesome/LICENSE.md",
+  "homepage": "https://github.com/mdwragg/polymer-font-awesome",
   "ignore": [
     "/.*",
     "/test/"
