@@ -10,10 +10,22 @@ install that via:
 
     npm install -g bower
 
-Then, go ahead and download the element's dependencies:
+Then, go ahead and install the element and its dependencies:
 
-    bower install
+    bower install polymer-font-awesome
 
+## Using this component
+
+To use this component, include the import link at the top of your page:
+```
+<link rel="import" href="bower_components/polymer-font-awesome/polymer-font-awesome.html" />
+```   
+
+and call the requested icon in your code like so:
+
+```
+<iron-icon icon="polymer-font-awesome:fa-angle-down"></iron-icon>
+```
 
 ## Playing With Your Element
 
